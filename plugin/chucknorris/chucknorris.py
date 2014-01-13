@@ -8,9 +8,12 @@ link = "http://api.icndb.com/jokes/random"
 
 def shuffle():
     try:
-        js = urllib2.urlopen(link, '', 10).read()
+        js = urllib2.urlopen(link, '', 5).read()
     except urllib2.URLError:
-        print "Website is not reachable."
+        print "Connection timed out"
+        return
+    except:
+        print "Error occurred"
         return
     d = json.loads(js)
     joke = d['value']['joke']
