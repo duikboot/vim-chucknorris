@@ -8,7 +8,7 @@ link = "http://api.icndb.com/jokes/random"
 
 def shuffle():
     try:
-        js = urllib2.urlopen(link, '', 5).read()
+        js = urllib2.urlopen(link, '', 3).read()
     except urllib2.URLError:
         print "Connection timed out"
         return
