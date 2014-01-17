@@ -1,0 +1,14 @@
+*chucknorris.txt* show Chuck Norris quotes in vim.
+
+
+==============================================================================
+CONTENTS                                                *chucknorris-contents*
+
+    1. Overview and Usage ................... |ChuckNorrisOverview|
+
+==============================================================================
+1. Overview and Usage                                    *Chucknorrisoverview*
+
+Chucknorris vim plugin is a very simple plugin for showing a Chuck Norris
+quote a the keypress: <leader>z for now. This will be configurable in 
+future versions.
