@@ -16,3 +16,11 @@ Install with [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332).
 
 Make sure you `:call pathogen#helptags()` after installing to make Vim notice
 the new documentation file.
+
+Requirements
+------------
+
+* Vim 7.3+
+* Python support for Vim
+* Python 2.6+
+
