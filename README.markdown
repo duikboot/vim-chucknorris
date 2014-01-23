@@ -1,11 +1,11 @@
 Vim Chuck-Norris
 ================
 
-I really really needed a Chuck Norris vim plugin, but I couldn't find one on
+I really, really needed a Chuck Norris vim plugin, but I couldn't find one on
 the internet.
 
 It uses `<Leader>z` to show a Chuck Norris quote.
-Of course in the next version this will be configurable, if I'm not roundhoused
+Of course in a next version this will be configurable, if I'm not roundhoused
 to death first... 
 
 
